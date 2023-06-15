@@ -2,6 +2,8 @@ CREATE DATABASE db_atividades_mysql;
 
 USE db_atividades_mysql;
 
+-- Exercicio de Serviço de RH.
+
 CREATE TABLE tb_exe01(
 id bigint auto_increment,
 nome VARCHAR(255) not null,

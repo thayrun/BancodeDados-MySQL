@@ -1,5 +1,7 @@
 USE db_atividades_mysql;
 
+-- Exercicio dos Produtos.
+
 create table tb_exe02(
 id bigint auto_increment,
 nome varchar(255) not null,
@@ -29,4 +31,5 @@ select * from tb_exe02 where preco < 500.00;
 update tb_exe02 set preco = 199.99 where id = 6;
 
 select * from tb_exe02;
+
 
